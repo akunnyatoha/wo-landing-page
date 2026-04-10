@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>TRILUX | PROJECT</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts: elegant serif & modern sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-container">
+        <div class="logo">TRI<span>LUX</span> <span style="font-size:0.8rem;">PROJECT</span></div>
+        <button class="menu-toggle" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#proses">Proses</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- HERO dengan space gambar -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content fade-up">
+                <h1 class="hero-title">Membuat Pernikahan Anda Sempurna</h1>
+                <p class="hero-tagline">Dari konsep hingga hari H, kami wujudkan pernikahan impian dengan sentuhan elegan & penuh cinta.</p>
+                <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                    <a href="#proses" class="btn-primary"><i class="fas fa-calendar-alt"></i> Konsultasi Gratis</a>
+                    <a href="#testimoni" class="btn-outline"><i class="fas fa-star"></i> Testimoni</a>
+                </div>
+            </div>
+            <div class="hero-image scale-in">
+                <!-- GANTI dengan gambar anda: Ganti src="images/wedding-hero.jpg" -->
+                <img id="heroImg" src="assets/images/img3.jpeg" alt="Wedding Hero" style="width:100%; height:auto; min-height:260px; object-fit:cover;">
+                <div class="placeholder-img" style="display: none;">Upload gambar wedding utama</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENDAHULUAN -->
+    <section id="tentang" style="padding-top: 0;">
+        <div class="container">
+            <div class="intro-text" style="background:#FFFFFFE0; padding: 40px 32px; border-radius: 40px; text-align:center; box-shadow:var(--shadow-sm);">
+                <h2 class="section-title" style="font-size:2rem;">✨ PENDAHULUAN ✨</h2>
+                <div class="divider"></div>
+                <p style="font-size:1.08rem;"><strong>Pernikahan adalah salah satu momen paling berkesan dalam hidup</strong>, di mana dua orang bersatu dalam cinta dan komitmen sejati. Setiap detil menjadi cerita abadi Anda.</p>
+                <p style="margin-top: 16px;">Kami hadir untuk memastikan hari istimewa Anda berjalan tanpa stres, penuh kehangatan, dan tak terlupakan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- APA ITU WEDDING ORGANIZER + gambar samping -->
+    <section>
+        <div class="container grid-2" style="align-items: center;">
+            <div class="fade-up">
+                <i class="fas fa-question-circle" style="font-size: 2.5rem; color: var(--soft-gold); margin-bottom: 16px; display: inline-block;"></i>
+                <h2 style="font-family: 'Playfair Display'; font-size: 2rem;">Apa itu Wedding Organizer?</h2>
+                <p style="margin: 20px 0 12px;">Wedding Organizer adalah profesional yang ahli dalam merencanakan, mengelola, dan mengkoordinasikan semua aspek pernikahan, mulai dari perencanaan hingga pelaksanaan semua acara.</p>
+                <p><strong>Mengapa pemilihan WO penting?</strong> Pemilihan yang tepat akan berdampak besar pada pengalaman pernikahan Anda.</p>
+            </div>
+            <div class="img-card scale-in">
+                <!-- GANTI dengan gambar diskusi WO -->
+                <img id="aboutImg" src="assets/images/img4.jpeg" alt="Wedding Planner">
+            </div>
+        </div>
+    </section>
+
+    <!-- LANGKAH-LANGKAH PEMILIHAN WEDDING ORGANIZER -->
+    <section style="background: #FCF7F0;">
+        <div class="container">
+            <h2 class="section-title">Langkah Memilih Wedding Organizer</h2>
+            <p class="section-sub">Faktor seperti pengalaman, referensi, dan gaya pribadi sangat penting. Berikut panduan tepat memilih mitra terbaik.</p>
+            <div class="steps-wrapper">
+                <div class="steps-grid">
+                    <div class="step-item"><span class="step-num" style="font-size:2rem; font-weight:800; color:#C2A575;">01</span><h3>Pengalaman & Portofolio</h3><p>Rekam jejak solid, portofolio beragam, serta referensi nyata.</p></div>
+                    <div class="step-item"><span class="step-num" style="font-size:2rem; font-weight:800; color:#C2A575;">02</span><h3>Referensi & Testimoni</h3><p>Dengar langsung dari pasangan yang sudah kami bantu. Kepuasan adalah bukti.</p></div>
+                    <div class="step-item"><span class="step-num" style="font-size:2rem; font-weight:800; color:#C2A575;">03</span><h3>Kepribadian & Keterbukaan</h3><p>WO yang memahami visi Anda, personal approach dan selaras gaya.</p></div>
+                    <div class="step-item"><span class="step-num" style="font-size:2rem; font-weight:800; color:#C2A575;">04</span><h3>Transparansi & Anggaran</h3><p>RAB rinci, tanpa biaya tersembunyi, efektif mengelola budget.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROSES PERENCANAAN PERNIKAHAN dengan gambar -->
+    <section id="proses">
+        <div class="container">
+            <h2 class="section-title">Proses Perencanaan Pernikahan</h2>
+            <p class="section-sub">Tahapan umum mulai dari pemilihan tanggal, tempat, vendor hingga koordinasi.</p>
+            <div class="grid-3">
+                <div class="card card-hover">
+                    <div class="card-icon"><i class="far fa-calendar-alt"></i></div>
+                    <h3>1. Tanggal & Tempat</h3>
+                    <p>Menentukan tanggal istimewa dan venue impian bersama pendampingan WO.</p>
+                </div>
+                <div class="card card-hover">
+                    <div class="card-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <h3>2. Anggaran & Vendor</h3>
+                    <p>Menyusun anggaran, memilih vendor terbaik (katering, MUA, dokumentasi).</p>
+                </div>
+                <div class="card card-hover">
+                    <div class="card-icon"><i class="fas fa-clock"></i></div>
+                    <h3>3. Jadwal & Koordinasi</h3>
+                    <p>Timeline detail & koordinasi vendor memastikan kelancaran hari H.</p>
+                </div>
+            </div>
+            <div style="margin-top: 32px; text-align:center; background:#F9F0E6; border-radius:48px; padding:24px;">
+                <p><i class="fas fa-chart-simple"></i> <strong>Pentingnya jadwal dan anggaran:</strong> Mengelola waktu dan keuangan adalah kunci pernikahan yang sukses.</p>
+            </div>
+
+            <div class="info-card" style="margin-top: 50px;">
+                <i class="fas fa-palette"></i>
+                <h3 style="font-size:1.7rem; margin: 12px 0;">Desain dan Dekorasi</h3>
+                <p>Konsep artistik yang mencerminkan kepribadian. Dari nuansa rustic, klasik hingga modern elegan. Kami hadirkan tata rias venue yang magis.</p>
+            </div>
+            
+            <!-- space gambar galeri proses -->
+            <div class="grid-2" style="margin-top: 10px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img16.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img17.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+            <div class="grid-2" style="margin-top: 48px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img18.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img19.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+            <div class="grid-2" style="margin-top: 48px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img20.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img21.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+            <div class="grid-2" style="margin-top: 48px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img22.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img23.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+            <div class="grid-2" style="margin-top: 48px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img24.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img25.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESAIN DEKORASI & LOGISTIK + IMAGE SPACE -->
+    <section style="background: #FFFBF5; margin-top: -50px;">
+        <div class="container">
+            <div class="info-card">
+                <i class="fas fa-people-arrows"></i>
+                <h3 style="font-size:1.7rem; margin: 12px 0;">Logistik dan Koordinasi</h3>
+                <p>Koordinasi antara vendor, tempat, dan pengantin. Komunikasi yang efisien antara semua pihak terlibat adalah kunci kelancaran acara.</p>
+                <div class="img-card" style="margin-top: 24px;">
+                    <img id="logisticImg" src="https://placehold.co/600x350/EBDCCB/8B6F4C?text=Upload+Foto+Koordinasi+Tim" alt="Logistik koordinasi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIPS UNTUK PERNIKAHAN SUKSES -->
+    <section id="tips">
+        <div class="container">
+            <h2 class="section-title">Tips untuk Pernikahan Sukses</h2>
+            <div class="tips-list">
+                <div class="tip-badge"><i class="fas fa-book"></i> Buku & situs planner: The Knot, WeddingIdeas</div>
+                <div class="tip-badge"><i class="fas fa-cloud-rain"></i> Rencana cadangan cuaca buruk / darurat</div>
+                <div class="tip-badge"><i class="fas fa-smile-wink"></i> Kesabaran & fleksibilitas adalah kunci</div>
+                <div class="tip-badge"><i class="fas fa-mobile-alt"></i> Aplikasi manajemen tamu & rundown digital</div>
+            </div>
+            <div style="margin-top: 44px; background: #EBDDCB; border-radius: 32px; padding: 28px; text-align: center;">
+                <i class="fas fa-umbrella" style="font-size: 2rem; color: #9b7c5e;"></i>
+                <p style="margin-top: 12px;"><strong>Rencana cadangan untuk cuaca buruk atau situasi darurat:</strong> Selalu siapkan plan B agar hari bahagia tetap sempurna.</p>
+            </div>
+            <!-- Gambar tambahan untuk tips -->
+            <!-- <div class="img-card" style="margin-top: 40px; max-width: 500px; margin-left: auto; margin-right: auto;">
+                <img id="tipsImg" src="https://placehold.co/800x400/D9C8B6/8B6F4C?text=Upload+Foto+Pasangan+Bahagia" alt="Pasangan Bahagia">
+            </div> -->
+            <div class="grid-2" style="margin-top: 10px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img2.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img5.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+            <div class="grid-2" style="margin-top: 48px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img8.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img10.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+            <div class="grid-2" style="margin-top: 48px; gap:24px;">
+                <div class="img-card"><img id="processImg1" src="assets/images/img11.jpeg" alt="Koordinasi vendor"></div>
+                <div class="img-card"><img id="processImg2" src="assets/images/img13.jpeg" alt="Dekorasi pernikahan"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONI DAN REFERENSI dengan foto -->
+    <section id="testimoni">
+        <div class="container">
+            <h2 class="section-title">Testimoni & Referensi</h2>
+            <p class="section-sub">Apa kata mereka yang sudah mempercayakan hari spesialnya pada kami.</p>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <img id="testi1Img" class="testimonial-img" src="https://placehold.co/80x80/D9C8B6/8B6F4C?text=User1" alt="klien">
+                    <i class="fas fa-quote-left" style="color: #DCC6A8;"></i>
+                    <p>"TRILUX PROJECT membuat pernikahan impian kami menjadi nyata! Semua tertata rapi, dekorasi luar biasa. Terima kasih!"</p>
+                    <div class="client-name">— Rina & Andi</div>
+                </div>
+                <div class="testimonial">
+                    <img id="testi2Img" class="testimonial-img" src="https://placehold.co/80x80/D9C8B6/8B6F4C?text=User2" alt="klien">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Koordinasi lancar, saat hujan mereka langsung sigap dengan rencana cadangan. Pernikahan tetap sempurna! Highly recommended."</p>
+                    <div class="client-name">— Sarah & Budi</div>
+                </div>
+                <div class="testimonial">
+                    <img id="testi3Img" class="testimonial-img" src="https://placehold.co/80x80/D9C8B6/8B6F4C?text=User3" alt="klien">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Proses perencanaan menyenangkan, bukan stres. Mereka mendengarkan dan memberikan solusi terbaik. Luar biasa!"</p>
+                    <div class="client-name">— Maya & Dika</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TERIMA KASIH -->
+    <section style="padding: 60px 0; background: #FCF3E8;">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-family: 'Playfair Display'; font-size: 2rem;">TERIMA KASIH ATAS PERHATIANNYA</h2>
+            <div class="divider"></div>
+            <p style="max-width: 560px; margin: 0 auto 30px; font-size: 1.1rem;">Setiap cinta layak dirayakan dengan sempurna. Mari wujudkan pernikahan impian Anda bersama TRILUX PROJECT.</p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="btn-primary"><i class="fas fa-phone-alt"></i> Hubungi Kami</a>
+                <a href="#" class="btn-outline"><i class="fas fa-envelope"></i> hello@abukrem.com</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 TRILUX PROJECT — Membuat Pernikahan Anda Sempurna</p>
+        <p style="margin-top: 12px; font-size: 0.8rem;"><i class="fas fa-heart" style="color: #C2A575;"></i> Percayakan hari bahagia Anda pada ahlinya.</p>
+    </div>
+</footer>
+
+<script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.getElementById('navLinks');
+    if(menuBtn) {
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    }
+    // Smooth scroll anchor
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const target = this.getAttribute('href');
+            if(target === "#" || target === "") return;
+            const element = document.querySelector(target);
+            if(element) {
+                e.preventDefault();
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                if(navLinks.classList.contains('active')) navLinks.classList.remove('active');
+            }
+        });
+    });
+
+    // Catatan: Gambar dapat diganti dengan mengupload file gambar ke folder "images"
+    // dan mengganti src atribut dari tiap img id di bawah ini. 
+    // Contoh: document.getElementById('heroImg').src = 'images/wedding-hero.jpg';
+    // Semua img sudah memiliki ID agar mudah diisi.
+    console.log("Website siap menerima upload gambar! Ganti src pada masing-masing img id.");
+</script>
+</body>
+</html>
